@@ -1,0 +1,17 @@
+#server to fetch config files
+server: localhost:5337
+#server to fetch config files
+tick: 5
+#fetch config
+app:
+  - name: app01   #app
+    label: test      #git branch name or commit id
+    profile: dev
+    homePath:          #dirs to store config files from server
+      - /Users/liolay/configRepo
+#  - name: app02   #app
+#    label: master      #git branch name or commit id
+#    homePath:          #dirs to store config files from server
+#      - /Users/liolay/configRepo
+#
+
